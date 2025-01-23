@@ -294,7 +294,7 @@ local crosshair_SpinAngle = 0;
 local crosshair_tick = 0;
 local buying = false; 
 local PlaceHolderUI = cloneref(Instance.new("ScreenGui", game.CoreGui));
-PlaceHolderUI.Enabled = false
+PlaceHolderUI.Enabled = true
 local Languages = {
     A = {English = "A", Arabic = "أ", Albanian = "A", Japanese = "あ", Spanish = "A", Russian = "А", Chinese = "阿", Urdu = "ا", French = "A", Portuguese = "A", Hindi = "अ"},
     B = {English = "B", Arabic = "ب", Albanian = "B", Japanese = "い", Spanish = "B", Russian = "Б", Chinese = "波", Urdu = "ب", French = "B", Portuguese = "B", Hindi = "ब"},
