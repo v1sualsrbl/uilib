@@ -257,6 +257,8 @@ local Camera = Workspace.Camera;
 local viewportSize = game.Workspace.Camera.ViewportSize;
 local Offset = cloneref(game:GetService("GuiService")):GetGuiInset().Y;
 local NotifiactionSGui = cloneref(Instance.new("ScreenGui", game.CoreGui)); NotifiactionSGui.Enabled = true
+local NewVector2 = Vector2.new;
+local NewVector3 = Vector3.new;
 local PlaceHolderUI = cloneref(Instance.new("ScreenGui", game.CoreGui));
 PlaceHolderUI.Enabled = true
 local Languages = {
