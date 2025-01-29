@@ -1,4 +1,3 @@
-local Library = {};
 local Library = {
 	Open = true;
 	Folders = {
@@ -258,41 +257,6 @@ local Camera = Workspace.Camera;
 local viewportSize = game.Workspace.Camera.ViewportSize;
 local Offset = cloneref(game:GetService("GuiService")):GetGuiInset().Y;
 local NotifiactionSGui = cloneref(Instance.new("ScreenGui", game.CoreGui)); NotifiactionSGui.Enabled = true
-local NewVector2 = Vector2.new;
-local NewVector3 = Vector3.new;
-local NewCFrame = CFrame.new; 
-local Angle = CFrame.Angles; 
-local NewHex = Color3.fromHex;
-local Floor = math.floor;
-local Random = math.random; 
-local Find = table.find;
-local Round = math.round;
-local Cos = math.cos;
-local Sin = math.sin;
-local Rad = math.rad; 
-local Clamp = math.clamp; 
-local Ceil = math.ceil; 
-local Pi = math.pi;
-local Sqrt = math.sqrt;
-local Tween = {};
-local C_Desync = {Enabled = false, OldPosition = nil, PredictedPosition = nil};
-local connections = {};
-local highlights = {};
-local Dropdowns = {}; 
-local Pickers = {}; 
-local VisValues = {}; 
-local Typing = false; 
-local aimAssistTarget; 
-local checks; 
-local prediction; 
-local partClosest; 
-local antiCheattick = 0; 
-local CursorSize = 0; 
-local statsTick = 0;
-local crosshair_LineAmount = 4;
-local crosshair_SpinAngle = 0; 
-local crosshair_tick = 0;
-local buying = false; 
 local PlaceHolderUI = cloneref(Instance.new("ScreenGui", game.CoreGui));
 PlaceHolderUI.Enabled = true
 local Languages = {
